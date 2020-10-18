@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/adi/Projects/ui-automation-test-example-pipeline-code/ui-automation-test-example-pipeline-code.csproj": {}
+  },
+  "projects": {
+    "/home/adi/Projects/ui-automation-test-example-pipeline-code/ui-automation-test-example-pipeline-code.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/adi/Projects/ui-automation-test-example-pipeline-code/ui-automation-test-example-pipeline-code.csproj",
+        "projectName": "ui-automation-test-example-pipeline-code",
+        "projectPath": "/home/adi/Projects/ui-automation-test-example-pipeline-code/ui-automation-test-example-pipeline-code.csproj",
+        "packagesPath": "/home/adi/.nuget/packages/",
+        "outputPath": "/home/adi/Projects/ui-automation-test-example-pipeline-code/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/adi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.27.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[86.0.4240.2200, )"
+            },
+            "Selenium.WebDriver.IEDriver": {
+              "target": "Package",
+              "version": "[3.150.1.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
