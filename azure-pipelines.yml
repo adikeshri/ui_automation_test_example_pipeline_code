@@ -24,12 +24,9 @@ steps:
 - task: VSTest@2
   inputs:
     testSelector: 'testAssemblies'
-    testAssemblyVer2: |
-      **\*test*.dll
-      !**\*TestAdapter.dll
-      !**\obj\**
-      UnitTest1.cs
+    testAssemblyVer2: 'UnitTest1.cs'
     searchFolder: '$(System.DefaultWorkingDirectory)'
+    uiTests: true
 - task: VSTest@2
   inputs:
     testSelector: 'testRun'
