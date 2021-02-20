@@ -23,8 +23,7 @@ steps:
 
 - task: VSTest@2
   inputs:
-    testSelector: 'testAssemblies'
-    testAssemblyVer2: 'UnitTest1.cs'
+    testSelector: 'testPlan'
     searchFolder: '$(System.DefaultWorkingDirectory)'
     uiTests: true
 - task: VSTest@2
