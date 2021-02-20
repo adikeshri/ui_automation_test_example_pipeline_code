@@ -20,7 +20,10 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
+
+
 - task: VSTest@2
   inputs:
     testSelector: 'testRun'
     searchFolder: '$(System.DefaultWorkingDirectory)'
+    uiTests: true
