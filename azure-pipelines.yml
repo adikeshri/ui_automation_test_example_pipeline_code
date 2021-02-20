@@ -28,6 +28,7 @@ steps:
       **\*test*.dll
       !**\*TestAdapter.dll
       !**\obj\**
+      UnitTest1.cs
     searchFolder: '$(System.DefaultWorkingDirectory)'
 - task: VSTest@2
   inputs:
