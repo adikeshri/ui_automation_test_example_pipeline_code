@@ -9,11 +9,6 @@ trigger:
 pool:
   vmImage: 'windows-latest'
 steps:
-- task: VSTest@2
-  inputs:
-    testSelector: 'testPlan'
-    searchFolder: '$(System.DefaultWorkingDirectory)'
-    uiTests: true
 - task: DotNetCoreCLI@2
   inputs:
     command: 'test'
